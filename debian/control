@@ -1,0 +1,14 @@
+Source: linuxmuster-freefork
+Section: web
+Priority: optional
+Maintainer: Frank Schiebel <frank@linuxmuster.net>
+Build-Depends: debhelper (>= 4.0.0)
+Standards-Version: 3.6.0
+
+Package: linuxmuster-freefork
+Section: web
+Priority: optional
+Architecture: all
+Depends: linuxmuster-schulkonsole (>=0.9.33), linuxmuster-schulkonsole-template
+Conflicts: linuxmuster-nagios-fernueberwachung
+Description: Meta package to free a paedML(R) Linux from all LMZ stuff and make it a free linuxmuster.net system
