@@ -19,8 +19,11 @@ body {
     text-shadow: 2px 2px 0 #FFFFFF;
 }
 
-#header {
-}
+a { color: #3465A4; }
+a:link { color: #3465A4; }
+a:visited { color: #3465A4; }
+a:hover { color: #666666; }
+a:active { color: #3465A4; }
 
 #box {
     border: 1px solid #ccc;
@@ -31,6 +34,7 @@ body {
 
 #innerbox {
     margin: 1em;
+    margin-bottom: 3em;
     background: transparent url(img/logo_sk.png) top right no-repeat;
 }
 
