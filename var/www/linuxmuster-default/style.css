@@ -1,0 +1,74 @@
+/* Styles for Open Source Version of Schulkonsole */
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: Verdana, sans-serif;
+    font-size: 1em;
+    background: #FBFAF9 url("img/page-gradient.png") top left repeat-x;
+}
+
+#header h1 {
+    margin: 0 0 1.4em 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+    font-size: 20px;
+    color: #999999;
+    font-weight: bold;
+    text-shadow: 2px 2px 0 #FFFFFF;
+}
+
+#header {
+}
+
+#box {
+    border: 1px solid #ccc;
+    width: 80%;
+    background-color: #fff;
+    margin: 2em auto;
+}
+
+#innerbox {
+    margin: 1em;
+    background: transparent url(img/logo_sk.png) top right no-repeat;
+}
+
+
+div.ddgfield {
+    background: url("img/ddg-logo.png") no-repeat scroll left top transparent;
+    clear: both;
+    height: 40px;
+    margin: 0;
+    padding: 0 0 2em;
+}
+
+.lst-b, .lst  {
+    border-color: #CCCCCC;
+    border-style: solid;
+    border-width: 1px;
+    height: 30px;
+    padding: 4px 0 0;
+    width: 17em;
+}
+.lst {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #000000;
+    float: left;
+    font: 18px arial,sans-serif;
+    margin-left: 114px;
+    padding-left: 6px;
+    padding-right: 10px;
+    vertical-align: top;
+}
+
+.lsb {
+    border: medium none;
+    color: #000000;
+    cursor: pointer;
+    height: 30px;
+    margin: 0 0 0 2px;
+    padding: 2px;
+    vertical-align: top;
+    width: 10em;
+}
