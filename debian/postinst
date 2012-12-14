@@ -9,4 +9,8 @@ if [ -f ${APACHESITECONF}  ]; then
     sed -i "s/paedml-default/linuxmuster-default/g" ${APACHESITECONF}
 fi
 
+if [ -d /var/www/paedml-default ]; then
+    rm -rf /var/www/paedml-default
+fi
+
 exit 0
